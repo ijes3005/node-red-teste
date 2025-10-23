@@ -1,0 +1,15 @@
+{
+  "name": "node-red-teste",
+  "version": "1.0.0",
+  "description": "Monitoramento de Energia",
+  "scripts": {
+    "start": "node-red --settings ./settings.js flows.json"
+  },
+  "dependencies": {
+    "node-red": "^3.0.0",
+    "node-red-dashboard": "^3.0.0"
+  },
+  "engines": {
+    "node": "18.x"
+  }
+}
